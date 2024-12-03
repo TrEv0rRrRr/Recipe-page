@@ -1,0 +1,136 @@
+/* TITLE-DESCRIPTION */
+h1,
+h2 {
+  font-family: var(--Title-font);
+  font-weight: var(--w-400);
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #383838;
+}
+
+h2,
+.section__ul-ingredients li::marker,
+.section__ol-instructions li::marker,
+.table-data p {
+  color: var(--Brown-800);
+}
+
+.main__section-title-desc {
+  margin-bottom: 15px;
+}
+
+.main__section-title-desc .section-desc {
+  font-size: 0.73rem;
+  box-sizing: border-box;
+  padding: 0 18px 0 0;
+  margin-top: 10px;
+}
+
+/* PREPARATION TIME */
+
+.main__section-preparation {
+  background-color: var(--Rose-50);
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.section__p-preparation {
+  color: var(--Rose-800);
+  font-weight: var(--w-700);
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.section__ul-time {
+  margin-left: 21px;
+}
+
+.section__ul-time li {
+  font-size: 0.85rem;
+}
+
+.section__ul-time li,
+.section__ul-ingredients li,
+.section__ol-instructions li {
+  padding-left: 15px;
+  margin-bottom: 5px;
+}
+
+.section__ul-time li::marker {
+  color: var(--Rose-800);
+}
+.section__ul-time li::marker,
+.section__ul-ingredients li::marker {
+  font-size: 0.65rem;
+}
+
+.black,
+.section__ol-instructions li::marker {
+  font-weight: var(--w-600);
+}
+
+/* INGREDIENTS */
+.main__section-ingredients {
+  border-bottom: 1px solid var(--Stone-150);
+  margin-bottom: 20px;
+}
+
+.section__ul-ingredients {
+  margin-left: 22px;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* INSTRUCTIONS */
+.main__section-instructions {
+  border-bottom: 1px solid var(--Stone-150);
+  margin-bottom: 20px;
+}
+
+.section__ol-instructions {
+  margin-left: 20px;
+  font-size: 0.7rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* NUTRITION */
+.section__p-nutrition {
+  font-size: 0.7rem;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.section__table {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.table-headers p,
+.table-data p {
+  border-bottom: 1px solid var(--Stone-150);
+  padding: 5px;
+  font-size: 0.7rem;
+}
+
+.table-headers p:last-child,
+.table-data p:last-child {
+  border-bottom: none;
+}
+
+.main__section-attribution {
+  display: none;
+}
+
+.table-headers p {
+  padding-left: 15px;
+  font-weight: var(--w-400);
+}
+
+.table-data p {
+  font-weight: var(--w-600);
+}
